@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ВИДЕО</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- srcdoc="<style>*{padding:0;margin:0;overflow:hidden}
+    html,body{height:100%}
+   
+    </style>
+    <a href=https://www.youtube.com/embed/9TZXsZItgdw?si=lhUb-X2bliaV0EZ0?rel=0&showinfo=0>
+    <img src=video.jpg alt='Demo video'>
+    <span>▶</span>
+    </a>" -->
+
+  <div class="about__video">
+
+    <!-- srcdoc="<a href=https://www.youtube.com/embed/9TZXsZItgdw?si=lhUb-X2bliaV0EZ0><img src=video.jpg width='320' height='170'></a>" -->
+
+    <!-- src="https://www.youtube.com/embed/9TZXsZItgdw?si=lhUb-X2bliaV0EZ0" -->
+
+    <!-- 
+    img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+    span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black} -->
+
+    <div class="iframe-wrapp">
+      <iframe class="video" id="myVideo" width="320" height="170" loading="lazy" frameborder="0"
+        title="YouTube video player" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"
+        data-src="https://www.youtube.com/embed/9TZXsZItgdw?si=lhUb-X2bliaV0EZ0?&autoplay=1">
+        >
+      </iframe>
+    </div>
+    <button class="video__play" type="button" tabindex="0">
+    </button>
+  </div>
+
+  <!-- 
+
+  allow="accelerometer;
+  autoplay; 
+  clipboard-write;
+   encrypted-media; 
+   gyroscope; 
+   picture-in-picture;
+    web-share" -->
+
+  <script src="youtube.js"></script>
+</body>
+
+</html>
